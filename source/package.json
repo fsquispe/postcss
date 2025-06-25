@@ -1,0 +1,21 @@
+{
+  "name": "post",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "postcss bootstrap.css -o bootstrap-scoped.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "postcss-prefixwrap": "^1.55.0"
+  },
+  "dependencies": {
+    "postcss-cli": "^11.0.1"
+  }
+}
